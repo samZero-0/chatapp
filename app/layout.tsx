@@ -29,11 +29,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       > 
-      <nav > 
+      <nav className="pl-5 pr-5"> 
         <NavBar></NavBar>
       </nav>
 
-      <div className="w-11/12 mx-auto">
+      <div className="p-5 mx-auto">
       <div className="min-h-[calc(100vh-289px)]">
         {children}
         </div>

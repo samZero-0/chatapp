@@ -1,7 +1,8 @@
+import { Button } from "./ui/button";
 
 const NavBar = () => {
     return (
-      <section className="md:w-11/12 md:mx-auto bg-red-500 ">
+      <section className=" md:mx-auto  ">
       <div className="">
         <div className="navbar bg-base-100  ">
 <div className="navbar-start">
@@ -31,6 +32,7 @@ const NavBar = () => {
     <span className="badge badge-xs badge-primary indicator-item"></span>
   </div>
 </button>
+<Button><a href="http://chatify-nawal.vercel.app/" target="_blank">Start Chatting</a></Button>
 </div>
 </div>
     </div>

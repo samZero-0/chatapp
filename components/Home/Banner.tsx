@@ -9,20 +9,20 @@ const HomeBanner = () => {
       title: "Connect with friends instantly",
       description: "Fast, secure messaging with the people who matter most",
       image: "https://i.ibb.co.com/tT8N35Pq/image.png",
-      bgColor: "bg-gradient-to-r from-blue-500 to-teal-400"
-    },
-    {
-      title: "Group chats made simple",
-      description: "Create groups for family, friends, or work with just a tap",
-      image: "/api/placeholder/600/400",
       bgColor: "bg-gradient-to-r from-purple-500 to-pink-400"
     },
-    {
-      title: "Share moments as they happen",
-      description: "Send photos, videos, and files with end-to-end encryption",
-      image: "/api/placeholder/600/400",
-      bgColor: "bg-gradient-to-r from-green-500 to-emerald-400"
-    }
+    // {
+    //   title: "Group chats made simple",
+    //   description: "Create groups for family, friends, or work with just a tap",
+    //   image: "/api/placeholder/600/400",
+    //   bgColor: "bg-gradient-to-r from-purple-500 to-pink-400"
+    // },
+    // {
+    //   title: "Share moments as they happen",
+    //   description: "Send photos, videos, and files with end-to-end encryption",
+    //   image: "/api/placeholder/600/400",
+    //   bgColor: "bg-gradient-to-r from-green-500 to-emerald-400"
+    // }
   ];
 
   // Auto-advance slides
